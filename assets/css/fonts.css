@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Nunito Sans";
+    src:
+        local("Nunito Sans"),
+        local("Nunito-Sans"),
+        url("../fonts/NunitoSans/NunitoSans-Regular.woff") format("woff"),
+        url("../fonts//NunitoSans/NunitoSans-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Nunito Sans";
+    src:
+        local("Nunito Sans"),
+        local("Nunito-Sans"),
+        url("../fonts/NunitoSans/NunitoSans-Italic.woff") format("woff"),
+        url("../fonts/NunitoSans/NunitoSans-Italic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Yeseva One";
+    src:
+        local("Yeseva One"),
+        local("Yeseva-One"),
+        url("../fonts/YesevaOne/YesevaOne-Regular.woff") format("woff"),
+        url("../fonts/YesevaOne/YesevaOne-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
