@@ -1,0 +1,29 @@
+.header {
+    background: #131313;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 18px 22px 18px;
+}
+
+.header__call-button {
+    padding: 13px 33px;
+}
+
+@media (max-width: 767px) {
+    .nav {
+        display: none;
+    }
+
+    .call__phone {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .header__call-button {
+        display: none;
+    }
+}

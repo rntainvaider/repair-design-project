@@ -1,0 +1,20 @@
+.footer {
+    background: #131313;
+}
+
+.footer__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px 18px;
+}
+
+.footer__call-button {
+    padding: 13px 33px;
+}
+
+@media (max-width: 767px) {
+    .footer {
+        display: none;
+    }
+}

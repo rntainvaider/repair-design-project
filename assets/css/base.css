@@ -2,20 +2,26 @@ body {
     font-family: var(--font-family);
 }
 
-.header {
-    background: #131313;
-}
-
 .container {
     max-width: 1256px;
     margin: 0 auto;
 }
 
-.header__wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 24px 18px 22px 18px;
+.button__primary {
+    border-radius: 2px;
+    box-shadow: 0 5px 15px 0 rgba(227, 184, 115, 0.2);
+    background: #e3b873;
+    font-style: italic;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.225s ease;
+}
+
+.button__primary:active {
+    transform: scaleX(0.95);
 }
 
 .logo {
@@ -54,35 +60,6 @@ body {
     color: #e3b873;
 }
 
-.call__button {
-    border-radius: 2px;
-    box-shadow: 0 5px 15px 0 rgba(227, 184, 115, 0.2);
-    background: #e3b873;
-    font-style: italic;
-    font-size: 11px;
-    text-transform: uppercase;
-    color: #fff;
-    padding: 13px 33px;
-    border: none;
-    cursor: pointer;
-    transition: transform 0.225s ease;
-}
-
-.call__button:active {
-    transform: scaleX(0.95);
-}
-
-.footer {
-    background: #131313;
-}
-
-.footer__wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 48px 18px;
-}
-
 @media (max-width: 767px) {
     .nav {
         display: none;
@@ -91,13 +68,5 @@ body {
     .call__phone {
         color: #fff;
         text-decoration: none;
-    }
-
-    .call__button {
-        display: none;
-    }
-
-    .footer {
-        display: none;
     }
 }
